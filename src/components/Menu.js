@@ -70,6 +70,7 @@ function Menu() {
             </MDBRipple>
             <MDBCardBody >
                 <MDBCardTitle className='MonteserratBold  blog-card-title' >Meals</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹100</MDBCardTitle>
              
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
@@ -85,6 +86,7 @@ function Menu() {
             </MDBRipple>
             <MDBCardBody >
                 <MDBCardTitle className='MonteserratBold  blog-card-title' >Meals</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹100</MDBCardTitle>
              
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
@@ -100,6 +102,7 @@ function Menu() {
             </MDBRipple>
             <MDBCardBody >
                 <MDBCardTitle className='MonteserratBold  blog-card-title' >Meals</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹100</MDBCardTitle>
              
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
@@ -115,6 +118,7 @@ function Menu() {
             </MDBRipple>
             <MDBCardBody >
                 <MDBCardTitle className='MonteserratBold  blog-card-title' >Meals</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹100</MDBCardTitle>
              
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
@@ -130,6 +134,7 @@ function Menu() {
             </MDBRipple>
             <MDBCardBody >
                 <MDBCardTitle className='MonteserratBold  blog-card-title' >Meals</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹100</MDBCardTitle>
              
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
@@ -145,6 +150,7 @@ function Menu() {
             </MDBRipple>
             <MDBCardBody >
                 <MDBCardTitle className='MonteserratBold  blog-card-title' >Meals</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹100</MDBCardTitle>
              
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
@@ -160,6 +166,7 @@ function Menu() {
             </MDBRipple>
             <MDBCardBody >
                 <MDBCardTitle className='MonteserratBold  blog-card-title' >Meals</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹100</MDBCardTitle>
              
                 <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                 <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
