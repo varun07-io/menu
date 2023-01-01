@@ -1,0 +1,93 @@
+
+:root {
+    --step--2: clamp(0.78rem, 0.65rem + 0.66vw, 1.12rem);
+    --step--1: clamp(0.94rem, 0.76rem + 0.9vw, 1.4rem);
+    --step-0: clamp(1.13rem, 0.88rem + 1.22vw, 1.75rem);
+    --step-1: clamp(1.35rem, 1.02rem + 1.63vw, 2.19rem);
+    --step-2: clamp(1.62rem, 1.19rem + 2.17vw, 2.73rem);
+    --step-3: clamp(1.94rem, 1.37rem + 2.88vw, 3.42rem);
+    --step-4: clamp(2.33rem, 1.58rem + 3.79vw, 4.27rem);
+    --step-5: clamp(2.8rem, 1.81rem + 4.96vw, 5.34rem);
+  }
+  /* fonts */
+  /* fonts */
+  /* fonts */
+  
+  @font-face {
+    font-family: Gilroy;
+    src: url(./assets/fonts/Gilroy-Light.otf);
+  }
+  
+  @font-face {
+    font-family: MontserratBold;
+    src: url(./assets/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+  }
+  
+  
+  /* Navbar */
+  /* Navbar */
+  /* Navbar */
+  .logo{
+    font-family: "MontserratBold";
+    margin-top: 5px;
+  }
+
+  .nav-linkss{
+    font-family: "Gilroy", sans-serif;
+    font-weight: 800;
+    margin-right: 2rem;
+  }
+  .nav-btn{
+    background-color:#E82A34;
+    color: #fff;
+    padding: 4px 15px;
+    border: 2px solid #E82A34;
+    font-family: "Gilroy", sans-serif;
+    transition: all 0.3s;
+    font-weight: 700;
+  }
+  .nav-btn:hover{
+    background-color: #fff;
+    border: 2px solid#E82A34;
+    color: #131313;
+  }
+
+  /* Menu */
+  /* Menu */
+  /* Menu */
+
+  
+  .blog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 2rem;
+  }
+
+  .blog-card{
+    margin: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    border-radius: 6px;
+  }
+
+  @media only screen and (max-width: 992px){
+    .blog-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 500px){
+    .blog-container{
+        grid-template-columns: 1fr 1fr ;
+    }
+  }
+
+  .blog-card-title{
+    font-size: var(--step--1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .blog-card-content{
+    font-size: var(--step--3);
+  }
