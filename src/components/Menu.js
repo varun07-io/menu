@@ -18,6 +18,10 @@ import {
     MDBRipple
   } from 'mdb-react-ui-kit';
   import foodimg from "../assets/images/foodimg.jpg"
+  import foodburg from "../assets/images/burger.jpg"
+  import foodwings from "../assets/images/wings.jpg"
+  import foodrice from "../assets/images/rice.jpg"
+  import foodfries from "../assets/images/fries.jpg"
 import { display } from "@mui/system";
 
 function Menu() {
@@ -37,13 +41,13 @@ function Menu() {
       setAge(e.target.value);
     };
     return(
-        <>
+        <div className="main--bg">
         {/* <div style={{backgroundColor: "#B2B2B2", display: "flex", justifyContent: "center", alignItems: "center", minHeight: "80px"}}>
             <h2 className="logo"># HASHTAG</h2>
         </div> */}
         <Container style={{padding: "1rem"}}>
             <div style={{display: "flex", justifyContent: "flex-end", alignItems: "center"}}>
-            <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
+            <FormControl sx={{ m: 1, minWidth: 120 }} size="small" style={{backgroundColor: "#fff", border: "none", borderRadius: "5px", color: "131313"}}>
             <InputLabel id="demo-select-large">Pick</InputLabel>
             <Select
                 labelId="demo-select-small"
@@ -62,7 +66,7 @@ function Menu() {
             </div>
             <div className="blog-container">
             <MDBCard className="blog-card">
-            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay' >
                 <MDBCardImage style={{borderTopLeftRadius: "6px", borderTopRightRadius: "6px"}} src={foodimg} fluid alt='...'  />
                 <a>
                 <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
@@ -77,11 +81,75 @@ function Menu() {
                 </div>
             </MDBCardBody>
             </MDBCard>
+            <MDBCard className="blog-card">
+            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                <MDBCardImage style={{borderTopLeftRadius: "6px", borderTopRightRadius: "6px"}} src={foodrice} fluid alt='...'  />
+                <a>
+                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                </a>
+            </MDBRipple>
+            <MDBCardBody >
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >Fried Rice</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹120</MDBCardTitle>
+             
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
+                </div>
+            </MDBCardBody>
+            </MDBCard>
+            <MDBCard className="blog-card">
+            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                <MDBCardImage style={{borderTopLeftRadius: "6px", borderTopRightRadius: "6px"}} src={foodwings} fluid alt='...'  />
+                <a>
+                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                </a>
+            </MDBRipple>
+            <MDBCardBody >
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >Chicken Wings</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹150</MDBCardTitle>
+             
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
+                </div>
+            </MDBCardBody>
+            </MDBCard>
+            <MDBCard className="blog-card">
+            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                <MDBCardImage style={{borderTopLeftRadius: "6px", borderTopRightRadius: "6px"}} src={foodfries} fluid alt='...'  />
+                <a>
+                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                </a>
+            </MDBRipple>
+            <MDBCardBody >
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >French Fries</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹80</MDBCardTitle>
+             
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
+                </div>
+            </MDBCardBody>
+            </MDBCard>
+            <MDBCard className="blog-card">
+            <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+                <MDBCardImage style={{borderTopLeftRadius: "6px", borderTopRightRadius: "6px"}} src={foodburg} fluid alt='...'  />
+                <a>
+                <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
+                </a>
+            </MDBRipple>
+            <MDBCardBody >
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >Burger</MDBCardTitle>
+                <MDBCardTitle className='MonteserratBold  blog-card-title' >₹90</MDBCardTitle>
+             
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
+                <div style={{backgroundColor: "#D6E4E5", padding: "5px 30px", display: "flex", justifyContent: "space-evenly", alignItems: "center"}}><HiOutlineMinus style={{cursor: "pointer", marginRight: "10px"}} onClick={handleClick2}/>{counter}<BsPlusLg style={{cursor: "pointer", marginLeft: "10px"}} onClick={handleClick1}/></div>
+                </div>
+            </MDBCardBody>
+            </MDBCard>
             
             </div>
 
         </Container>
-        </>
+        </div>
     )
 }
 

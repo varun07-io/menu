@@ -56,7 +56,13 @@
   /* Menu */
   /* Menu */
 
-  
+  .main--bg{
+    background-image: url(./assets/images/bgmain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
   .blog-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
